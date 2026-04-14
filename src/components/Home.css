@@ -1,0 +1,20 @@
+h2{
+    color: darkgray;
+    text-align: start;
+    font-size: xx-large;
+    font-weight: 900;
+}
+.infos{
+    display: flex;
+    margin-top: 8rem;
+    justify-content: center;
+    gap: 12rem;
+}
+.pic{
+    border: 1px solid black;
+    width: 24rem;
+    height: 17rem;
+    border-radius: 10px;
+    background-image: url('../assets/img.webp');
+    background-size: cover;
+}

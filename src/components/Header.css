@@ -1,0 +1,19 @@
+.headercontent{
+    display: flex;
+}
+.headercontent h1{
+    margin-right: auto;
+    color: white;
+}
+.headercontent a{
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    margin-top: 23px;
+    padding: 12px;
+    transition: 0.3s;
+}
+.headercontent a:hover {
+  color: #38bdf8;
+}
+
