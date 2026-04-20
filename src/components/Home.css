@@ -1,20 +1,30 @@
-h2{
-    color: darkgray;
-    text-align: start;
-    font-size: xx-large;
-    font-weight: 900;
-}
-.infos{
+.infos {
     display: flex;
-    margin-top: 8rem;
+    margin-top: 6rem;
     justify-content: center;
-    gap: 12rem;
+    align-items: center;
+    gap: 4rem;
+    padding: 0 2rem;
+    flex-wrap: wrap; /* ✅ prevents breaking on small screens */
 }
-.pic{
-    border: 1px solid black;
-    width: 24rem;
-    height: 17rem;
+
+/* TEXT SIDE */
+.infos h2 {
+    color: darkgray;
+    font-size: 2rem;
+    font-weight: 900;
+    line-height: 1.5;
+    max-width: 500px; /* ✅ LIMIT TEXT WIDTH */
+}
+
+/* IMAGE SIDE */
+.pic {
+    width: 350px;  /* ✅ fixed size */
+    height: 250px;
     border-radius: 10px;
+
     background-image: url('../assets/img.webp');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

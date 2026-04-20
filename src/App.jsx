@@ -9,12 +9,12 @@ import './components/Header.css'
 import './components/Home.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [name, setName] = useState("Alae")
 
   return (
     <>
-    <Header name="ali"></Header>
-    <Home></Home>
+    <Header name={name}></Header>
+    <Home name={name}></Home>
     </>
   )
 }

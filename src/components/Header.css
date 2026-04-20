@@ -1,19 +1,22 @@
-.headercontent{
+.headercontent {
     display: flex;
+    align-items: center; /* ✅ fix vertical alignment */
+    padding: 1rem 2rem;
+    background-color: #0f172a; /* optional but makes it visible */
 }
-.headercontent h1{
+
+.headercontent h1 {
     margin-right: auto;
     color: white;
 }
-.headercontent a{
+
+.headercontent a {
     color: white;
     text-decoration: none;
-    align-items: center;
-    margin-top: 23px;
-    padding: 12px;
+    padding: 0.75rem;
     transition: 0.3s;
 }
-.headercontent a:hover {
-  color: #38bdf8;
-}
 
+.headercontent a:hover {
+    color: #38bdf8;
+}
